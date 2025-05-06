@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /* Netflix-style background */
+    body {
+        background: url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1650&q=80') no-repeat center center fixed;
+        background-size: cover;
+        position: relative;
+        color: white;
+        font-family: 'Arial', sans-serif;
+    }
+
+    /* Dark overlay */
+    body::before {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.7); /* Black transparent */
+        z-index: -1;
+    }
+
+    /* Light glass effect for sections */
+    section, header, footer, nav {
+        background: rgba(0, 0, 0, 0.5);
+        backdrop-filter: blur(5px);
+        border-radius: 10px;
+        margin-bottom: 20px;
+        padding: 20px;
+    }
+
+    .card {
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(5px);
+        color: white;
+        border: none;
+    }
+
+    .card img {
+        border-radius: 10px;
+    }
+
+    .navbar, .footer {
+        background: rgba(0, 0, 0, 0.8);
+    }
+
+    h2, h5, p {
+        color: white;
+    }
+
+    /* Smooth fade in animation */
+    section, header, footer, nav {
+        animation: fadeIn 2s ease-in;
+    }
+
+    @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+    }
+</style>
+<body>
+    <h1>PICS<h1>
+    
+    <img src="https://gpthane.org.in/wp-content/uploads/2023/07/mechanical-engineering.jpg" alt ="Image 1" >
+    <pre>
+    <h5>Coding meets cutting-edge engineering — where software drives precision and innovation.
+         💻⚙️ #TechInAction #CodeAndCreate #EngineeringWithCode
+
+    </h5>
+    </pre>
+    
+    <img src="https://svist.org/wp-content/uploads/2023/02/polytechnic-me-students-1024x682.webp" height="500" alt ="Image 2" >
+    <pre>
+        <h5>From mechanics to microcontrollers — where hands-on repair meets hands-on coding.
+             🛠️💻 #TechFusion #CodingTheFuture #SmartMachines
+
+        </h5>
+    </pre>
+    <img src="https://assets.everspringpartners.com/8d/05/636def57477b9844bd527e843858/mechanical-engineering-on-emerging-technologies.jpg"height="400" alt ="Image 3" >
+    <pre>
+        <h5>Coding meets industry — where lines of code control the giants of mechanical engineering.
+             🏭💡 #IndustrialAutomation #CodeInMotion #SmartManufacturing
+
+        </h5>
+    </pre>
+    <img src="https://www.singaporetech.edu.sg/sites/default/files/2022-04/mechanical-engineering.jpg"height="400" alt ="Image 4" >
+    <pre>
+            <h5>Precision meets programming — coding the brain behind the machine.
+ 🤖🔧 #RoboticsInAction #STEMpower #CodeBuildInnovate
+              </h5>
+    </pre>
+    <img src="https://visat.in/wp-content/uploads/2023/07/Mechanical-Engineering.jpeg" alt ="Image 5" >
+    <pre>
+            <h5>
+                Blending code with mechanics — students programming real-time control systems for fluid dynamics experiments. 
+                💻🔧 #CodingInEngineering #TechInLab #FutureInnovators
+             </h5>
+    </pre>

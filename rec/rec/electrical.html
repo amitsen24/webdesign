@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /* Netflix-style background */
+    body {
+        background: url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1650&q=80') no-repeat center center fixed;
+        background-size: cover;
+        position: relative;
+        color: white;
+        font-family: 'Arial', sans-serif;
+    }
+
+    /* Dark overlay */
+    body::before {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.7); /* Black transparent */
+        z-index: -1;
+    }
+
+    /* Light glass effect for sections */
+    section, header, footer, nav {
+        background: rgba(0, 0, 0, 0.5);
+        backdrop-filter: blur(5px);
+        border-radius: 10px;
+        margin-bottom: 20px;
+        padding: 20px;
+    }
+
+    .card {
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(5px);
+        color: white;
+        border: none;
+    }
+
+    .card img {
+        border-radius: 10px;
+    }
+
+    .navbar, .footer {
+        background: rgba(0, 0, 0, 0.8);
+    }
+
+    h2, h5, p {
+        color: white;
+    }
+
+    /* Smooth fade in animation */
+    section, header, footer, nav {
+        animation: fadeIn 2s ease-in;
+    }
+
+    @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+    }
+</style>
+<body>
+    <h1>PICS<h1>
+    
+    <img src="https://blogs.stthom.edu/wp-content/uploads/2022/08/BeYourBold_Blog_Engineering.jpg" height ="500"alt ="Image 1" >
+    <pre>
+    <h5>Powering innovation, one circuit at a time
+    </h5>
+    </pre>
+    
+    <img src="https://nyuad.nyu.edu/content/nyuad/en/home/academics/undergraduate/majors-and-minors/electrical-engineering-major/_jcr_content/mainparsys/image_copy/image.img.jpg" height="500" alt ="Image 2" >
+    <pre>
+        <h5>Where imagination meets electricity ⚡ — and nothing is impossible.
+        </h5>
+    </pre>
+    <img src="https://www.chitkara.edu.in/blogs/wp-content/uploads/2022/08/What-can-you-do-with-an-electrical-engineering-degree.jpg" alt ="Image 3" >
+    <pre>
+        <h5>“Building invisible power that moves the world.” ⚡🌍
+        </h5>
+    </pre>
+    <img src="https://www.iit.edu/sites/default/files/2019-12/2018_03_19_iit_day1-154_830x553.jpg" alt ="Image 4" >
+    <pre>
+            <h5>“Masters of current, architects of the future.” ⚡🔧
+              </h5>
+    </pre>
+    <img src="https://www.sfasu.edu/sites/default/files/2022-08/electrical-engineering-primary-image.jpg" alt ="Image 5" >
+    <pre>
+            <h5>
+                “We don’t just work with electricity — we shape the energy of tomorrow.” ⚡🔌
+             </h5>
+    </pre>

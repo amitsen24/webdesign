@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /* Netflix-style background */
+    body {
+        background: url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1650&q=80') no-repeat center center fixed;
+        background-size: cover;
+        position: relative;
+        color: white;
+        font-family: 'Arial', sans-serif;
+    }
+
+    /* Dark overlay */
+    body::before {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.7); /* Black transparent */
+        z-index: -1;
+    }
+
+    /* Light glass effect for sections */
+    section, header, footer, nav {
+        background: rgba(0, 0, 0, 0.5);
+        backdrop-filter: blur(5px);
+        border-radius: 10px;
+        margin-bottom: 20px;
+        padding: 20px;
+    }
+
+    .card {
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(5px);
+        color: white;
+        border: none;
+    }
+
+    .card img {
+        border-radius: 10px;
+    }
+
+    .navbar, .footer {
+        background: rgba(0, 0, 0, 0.8);
+    }
+
+    h2, h5, p {
+        color: white;
+    }
+
+    /* Smooth fade in animation */
+    section, header, footer, nav {
+        animation: fadeIn 2s ease-in;
+    }
+
+    @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+    }
+</style>
+<body>
+    <h1>PICS<h1>
+    
+    <img src="https://tse2.mm.bing.net/th?id=OIP.buYe9PaZnP2u-ifUMHnuRwHaEK&pid=Api&P=0&h=180" height ="500"alt ="Image 1" >
+    <pre>
+    <h5>STUDENTS PLAYING BASKET BALL
+    </h5>
+    </pre>
+    
+    <img src="https://tse1.mm.bing.net/th?id=OIP.uS6wjcXIo40ESJ2eafIgmAHaE8&pid=Api&P=0&h=180" height="500" alt ="Image 2" >
+    <pre>
+        <h5>STUDENTS PLAYING VOLLYBALL
+        </h5>
+    </pre>
+    <img src="https://www.chitkara.edu.in/wp-content/uploads/2022/09/badminton-and-table-tennis-banner-1.jpg" alt ="Image 3" >
+    <pre>
+        <h5>STUDENTS PLAYING TABLE TENNIS
+        </h5>
+    </pre>
+    <img src=https://www.studentsportcompany.com/wp-content/uploads/2022/10/UK-University-Cricket-Thumbnail.jpg" alt ="Image 4" >
+    <pre>
+            <h5>STUDENTS PLAYING CRICKET
+              </h5>
+    </pre>
+    <img src="https://ia.ctbc.edu.tw/wp-content/uploads/sites/9/2019/04/students-enjoy-playing-badminton-1024x768.jpg" alt ="Image 5" >
+    <pre>
+            <h5>STUDENTS BADMINTON
+                
+             </h5>
+    </pre>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /* Netflix-style background */
+    body {
+        background: url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1650&q=80') no-repeat center center fixed;
+        background-size: cover;
+        position: relative;
+        color: white;
+        font-family: 'Arial', sans-serif;
+    }
+
+    /* Dark overlay */
+    body::before {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.7); /* Black transparent */
+        z-index: -1;
+    }
+
+    /* Light glass effect for sections */
+    section, header, footer, nav {
+        background: rgba(0, 0, 0, 0.5);
+        backdrop-filter: blur(5px);
+        border-radius: 10px;
+        margin-bottom: 20px;
+        padding: 20px;
+    }
+
+    .card {
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(5px);
+        color: white;
+        border: none;
+    }
+
+    .card img {
+        border-radius: 10px;
+    }
+
+    .navbar, .footer {
+        background: rgba(0, 0, 0, 0.8);
+    }
+
+    h2, h5, p {
+        color: white;
+    }
+
+    /* Smooth fade in animation */
+    section, header, footer, nav {
+        animation: fadeIn 2s ease-in;
+    }
+
+    @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+    }
+</style>
+<body>
+    <h1>PICS<h1>
+    
+    <img src="https://www.takshashilauniv.ac.in/old/wp-content/uploads/2023/06/electronics-design-engineer.jpg" height ="500"alt ="Image 1" >
+    <pre>
+    <h5>
+        "ECE: Bridging hardware and innovation through circuits and code." 🔧⚡📡
+        
+    </h5>
+    </pre>
+    
+    <img src="https://happenings.lpu.in/wp-content/uploads/2024/01/Electronics-and-Communication-Engineering.jpg" height="400" alt ="Image 2" >
+    <pre>
+        <h5>
+            Where ideas spark and circuits come alive." 🔌✨
+        </h5>
+    </pre>
+    <img src="https://www.cmrit.ac.in/wp-content/uploads/2022/10/A-complete-guide-to-ECE.jpg" height="500" alt ="Image 3" >
+    <pre>
+        <h5>
+         Turning signals into solutions, one wire at a time." 📡🔧
+
+        </h5>
+    </pre>
+    <img src="https://media.istockphoto.com/id/1457151572/photo/co-workers-working-on-a-circuit-boards-in-office.jpg?s=612x612&w=0&k=20&c=YrmaZZA_ABMlVMe5MM4IG0OKBUwTjr1IVlFQIvmE_0w=" height="500" alt ="Image 4" >
+    <pre>
+            <h5>
+                The heartbeat of modern technology." ⚙️📶
+              </h5>
+    </pre>
+    <img src="https://media.istockphoto.com/id/1455946567/photo/college-instructor-assisting-electrical-engineering-students.jpg?s=612x612&w=0&k=20&c=NZk9l0sivK3QijpQ9Efc0833A9My4sp2frwIoUejZ98=" height="500" alt ="Image 5" >
+    <pre>
+            <h5>Building the future with bits, bytes, and circuits." 💡🔍💻
+                
+             </h5>
+    </pre>

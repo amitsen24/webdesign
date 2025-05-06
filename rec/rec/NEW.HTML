@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>RAMGARH ENGINEERING COLLEGE</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- AOS Animation -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+      transition: 0.4s;
+      cursor: pointer;
+    }
+    .navbar-nav .nav-link {
+      transition: color 0.3s;
+    }
+    .navbar-nav .nav-link:hover {
+      color: #0dcaf0;
+    }
+    img:hover {
+      transform: scale(1.05);
+      transition: transform 0.5s;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Header -->
+<header class="bg-primary text-white text-center py-4" data-aos="fade-down">
+  <h1>RAMGARH ENGINEERING COLLEGE</h1>
+  <p>Excellence in Education Since 2013</p>
+</header>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" data-aos="fade-up">
+  <div class="container">
+    <a class="navbar-brand" href="#">Ramgarh Engineering College</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#courses">Courses</a></li>
+        <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+        <li class="nav-item"><a class="nav-link" href="#news">News</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- About Section -->
+<section id="about" class="py-5">
+  <div class="container" data-aos="fade-right">
+    <h2>About Us</h2>
+    <p>Ramgarh Engineering College is a PPP based college committed to delivering top-notch education and fostering innovation. Our beautiful campus and expert faculty create the perfect environment for student success.</p>
+  </div>
+</section>
+
+<!-- Courses Section -->
+<section id="courses" class="py-5 bg-light">
+  <div class="container" data-aos="fade-up">
+    <h2>Our Courses</h2>
+    <div class="row">
+
+      <!-- Computer Science -->
+      <div class="col-md-4 mb-3" data-aos="zoom-in">
+        <div class="card" data-bs-toggle="collapse" data-bs-target="#cs-details">
+          <img src="https://ramgarhengg.edu.in/uploads/banner/376_265_17.jpg" class="card-img-top" alt="CSE">
+          <div class="card-body">
+            <h5 class="card-title">Bachelor of Technology in Computer Science</h5>
+            <p class="card-text">Explore physics, chemistry, biology, and pps with hands-on experience.</p>
+          </div>
+        </div>
+        <div id="cs-details" class="collapse mt-2">
+          <ul class="list-group">
+            <li class="list-group-item">Duration: 4 Years</li>
+            <li class="list-group-item">Fees: ₹80,000 per year</li>
+            <li class="list-group-item">Faculty: Dr. Anil Kumar, Prof. Suman Sharma</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Civil Engineering -->
+      <div class="col-md-4 mb-3" data-aos="zoom-in" data-aos-delay="100">
+        <div class="card" data-bs-toggle="collapse" data-bs-target="#ce-details">
+          <img src="http://ramgarhengg.edu.in/uploads/IMG-20190330-WA0009.jpg" class="card-img-top" alt="Civil">
+          <div class="card-body">
+            <h5 class="card-title">Bachelor of Technology in Civil</h5>
+            <p class="card-text">Dive into mechanics, engineering drawing, maths, and chemistry with renowned professors.</p>
+          </div>
+        </div>
+        <div id="ce-details" class="collapse mt-2">
+          <ul class="list-group">
+            <li class="list-group-item">Duration: 4 Years</li>
+            <li class="list-group-item">Fees: ₹75,000 per year</li>
+            <li class="list-group-item">Faculty: Prof. Mukesh Singh, Dr. Neha Verma</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Electrical Engineering -->
+      <div class="col-md-4 mb-3" data-aos="zoom-in" data-aos-delay="200">
+        <div class="card" data-bs-toggle="collapse" data-bs-target="#ee-details">
+          <img src="https://skilljunction.in/wp-content/uploads/2018/05/68413d4e-52cf-4d2e-9b02-bdb515da5a69.jpg" class="card-img-top" alt="Electrical">
+          <div class="card-body">
+            <h5 class="card-title">Bachelor of Technology in Electrical</h5>
+            <p class="card-text">Study electric circuits, control systems, and power electronics with experts.</p>
+          </div>
+        </div>
+        <div id="ee-details" class="collapse mt-2">
+          <ul class="list-group">
+            <li class="list-group-item">Duration: 4 Years</li>
+            <li class="list-group-item">Fees: ₹78,000 per year</li>
+            <li class="list-group-item">Faculty: Dr. Ajay Pandey, Prof. Priya Singh</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Mechanical Engineering -->
+      <div class="col-md-4 mb-3" data-aos="zoom-in" data-aos-delay="300">
+        <div class="card" data-bs-toggle="collapse" data-bs-target="#me-details">
+          <img src="https://cdn.pixabay.com/photo/2017/05/10/22/29/mechanical-2302970_1280.jpg" class="card-img-top" alt="Mechanical">
+          <div class="card-body">
+            <h5 class="card-title">Bachelor of Technology in Mechanical</h5>
+            <p class="card-text">Learn thermodynamics, machines, and production technologies hands-on.</p>
+          </div>
+        </div>
+        <div id="me-details" class="collapse mt-2">
+          <ul class="list-group">
+            <li class="list-group-item">Duration: 4 Years</li>
+            <li class="list-group-item">Fees: ₹76,000 per year</li>
+            <li class="list-group-item">Faculty: Prof. Rajesh Yadav, Dr. Divya Patel</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Electronics and Communication -->
+      <div class="col-md-4 mb-3" data-aos="zoom-in" data-aos-delay="400">
+        <div class="card" data-bs-toggle="collapse" data-bs-target="#ece-details">
+          <img src="https://cdn.pixabay.com/photo/2016/11/18/17/20/electronics-1836436_1280.jpg" class="card-img-top" alt="ECE">
+          <div class="card-body">
+            <h5 class="card-title">Bachelor of Technology in Electronics and Communication</h5>
+            <p class="card-text">Understand electronics, communication systems, microprocessors with top faculty.</p>
+          </div>
+        </div>
+        <div id="ece-details" class="collapse mt-2">
+          <ul class="list-group">
+            <li class="list-group-item">Duration: 4 Years</li>
+            <li class="list-group-item">Fees: ₹77,000 per year</li>
+            <li class="list-group-item">Faculty: Dr. Kavita Das, Prof. Rohit Mehra</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Gallery, News, Contact, Footer Sections Same as before -->
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<!-- AOS Animation JS -->
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000,
+    once: true
+  });
+</script>
+
+</body>
+</html>

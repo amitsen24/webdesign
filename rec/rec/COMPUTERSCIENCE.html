@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /* Netflix-style background */
+    body {
+        background: url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1650&q=80') no-repeat center center fixed;
+        background-size: cover;
+        position: relative;
+        color: white;
+        font-family: 'Arial', sans-serif;
+    }
+
+    /* Dark overlay */
+    body::before {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.7); /* Black transparent */
+        z-index: -1;
+    }
+
+    /* Light glass effect for sections */
+    section, header, footer, nav {
+        background: rgba(0, 0, 0, 0.5);
+        backdrop-filter: blur(5px);
+        border-radius: 10px;
+        margin-bottom: 20px;
+        padding: 20px;
+    }
+
+    .card {
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(5px);
+        color: white;
+        border: none;
+    }
+
+    .card img {
+        border-radius: 10px;
+    }
+
+    .navbar, .footer {
+        background: rgba(0, 0, 0, 0.8);
+    }
+
+    h2, h5, p {
+        color: white;
+    }
+
+    /* Smooth fade in animation */
+    section, header, footer, nav {
+        animation: fadeIn 2s ease-in;
+    }
+
+    @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+    }
+</style>
+<body>
+    <h1>PICS<h1>
+    
+    <img src="https://spencerpauly.com/content/images/2022/07/header.jpeg" alt ="Image 1" >
+    <pre>
+    <h5>Collaborating on code, sharing ideas, and building something awesome together — teamwork at its best!
+💻🚀 #CodingLife #Teamwork #DevSquad
+    </h5>
+    </pre>
+    
+    <img src="https://www.skidmore.edu/ldp_gallery/.private_ldp/a220194/production/master/57a0cd1f-3235-46c7-aa8a-a741dc40ec68.jpg" height="500" alt ="Image 2" >
+    <pre>
+        <h5>Focused minds, collaborative coding — turning logic into lines of code, one keystroke at a time. 
+💻🔥 #CodingSession #DebuggingSquad #ProgrammersAtWork
+        </h5>
+    </pre>
+    <img src="https://edsource.org/wp-content/uploads/2023/05/csforca-image2-1024x683.jpeg" alt ="Image 3" >
+    <pre>
+        <h5>Bringing code to life through hardware! 
+💡🔧 Teamwork, logic, and a bit of Arduino magic. #EmbeddedSystems #CodeAndBuild #TechInAction
+        </h5>
+    </pre>
+    <img src="https://epe.brightspotcdn.com/dims4/default/a8294d2/2147483647/strip/true/crop/2947x2000+0+0/resize/840x570!/quality/90/?url=https%3A%2F%2Fepe-brightspot.s3.us-east-1.amazonaws.com%2Ffe%2F57%2F4646a89b4286b49b8dec6b373c98%2Fscience-robotics-girls-102025-1133836255.jpg" alt ="Image 4" >
+    <pre>
+            <h5>Precision meets programming — coding the brain behind the machine.
+ 🤖🔧 #RoboticsInAction #STEMpower #CodeBuildInnovate
+              </h5>
+    </pre>
+    <img src="https://api.hindustanuniv.ac.in/uploads/3_44f219ffa6.jpg" alt ="Image 5" >
+    <pre>
+            <h5>
+                Code with confidence, debug with a smile!
+ 💻✨ #GirlsWhoCode #CodingJourney #FutureDeveloper
+             </h5>
+    </pre>
